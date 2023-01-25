@@ -34,6 +34,7 @@ Route::get('places/{id}', function (Request $request, string $placeId) {
             'displayed_where',
             'opening_hours',
             'local_entry_id',
+            'addresses',
         ])
     ));
 });
